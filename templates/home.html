@@ -3,6 +3,41 @@
 {% block title %}Главная{% endblock %}
 
 {% block content %}
-<h1>Добро пожаловать на главную страницу!</h1>
-<p>Это главная страница нашего Flask-приложения.</p>
+<div class="jumbotron bg-light p-5 rounded-lg">
+    <h1 class="display-4">Добро пожаловать на FlaskApp!</h1>
+    <p class="lead">Это современное веб-приложение на Flask, которое демонстрирует возможности шаблонизации с помощью Jinja и интеграцию с Bootstrap.</p>
+    <hr class="my-4">
+    <p>Наше приложение предоставляет множество полезных функций, и мы рады приветствовать вас на главной странице.</p>
+    <a class="btn btn-primary btn-lg" href="/about" role="button">Узнать больше</a>
+</div>
+
+<div class="row mt-5">
+    <div class="col-md-4">
+        <div class="card">
+            <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Пример изображения">
+            <div class="card-body">
+                <h5 class="card-title">Функция 1</h5>
+                <p class="card-text">Краткое описание первой функции приложения.</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card">
+            <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Пример изображения">
+            <div class="card-body">
+                <h5 class="card-title">Функция 2</h5>
+                <p class="card-text">Краткое описание второй функции приложения.</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card">
+            <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Пример изображения">
+            <div class="card-body">
+                <h5 class="card-title">Функция 3</h5>
+                <p class="card-text">Краткое описание третьей функции приложения.</p>
+            </div>
+        </div>
+    </div>
+</div>
 {% endblock %}
